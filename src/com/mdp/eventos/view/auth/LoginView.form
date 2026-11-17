@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.mdp.eventos.view.auth.LoginView">
+  <grid id="c1000" binding="rootPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints><xy x="20" y="20" width="1020" height="620"/></constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c1001" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="16">
+        <margin top="42" left="42" bottom="34" right="36"/>
+        <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/></constraints>
+        <properties><background color="-15518646"/></properties>
+        <border type="none"/>
+        <children>
+          <component id="c1002" class="javax.swing.JLabel">
+            <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="|||  Eventos MDP"/><foreground color="-1"/></properties>
+          </component>
+          <component id="c1003" class="javax.swing.JLabel">
+            <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="Todo tu evento, en un solo lugar."/></properties>
+          </component>
+          <component id="c1004" class="javax.swing.JLabel">
+            <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="MySQL: conexión y credenciales se validan al ingresar"/></properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c1005" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="8">
+        <margin top="38" left="36" bottom="38" right="36"/>
+        <constraints><grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/></constraints>
+        <properties/>
+        <border type="line" title=""/>
+        <children>
+          <component id="c1006" class="javax.swing.JLabel">
+            <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="BIENVENIDO"/></properties>
+          </component>
+          <component id="c1007" class="javax.swing.JLabel">
+            <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="Iniciar sesión"/></properties>
+          </component>
+          <component id="c1008" class="javax.swing.JLabel">
+            <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="Correo electrónico"/></properties>
+          </component>
+          <component id="c1009" class="javax.swing.JTextField" binding="txtEmail">
+            <constraints><grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+            <properties/>
+          </component>
+          <component id="c1010" class="javax.swing.JLabel">
+            <constraints><grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="Contraseña"/></properties>
+          </component>
+          <component id="c1011" class="javax.swing.JPasswordField" binding="txtPassword">
+            <constraints><grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+            <properties/>
+          </component>
+          <component id="c1013" class="javax.swing.JLabel" binding="lblEstado">
+            <constraints><grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value=" "/></properties>
+          </component>
+          <component id="c1014" class="javax.swing.JButton" binding="btnIngresar">
+            <constraints><grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints>
+            <properties><text value="Iniciar sesión"/></properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
